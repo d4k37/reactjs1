@@ -2,7 +2,7 @@
  
 yarn init -y
 yarn add react
-yarn add react-dom
+yarn add react-domm
 
 PASTAS ESSENCIAIS
 ![image](https://user-images.githubusercontent.com/59730229/117494622-f357f280-af4a-11eb-8db5-46179a07c3f6.png)
