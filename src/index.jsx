@@ -1,5 +1,5 @@
 import React from 'react';
+import {} from  './App'
 
-function App(){
-return <h1>olá mondo</h1>
-};
+
+
