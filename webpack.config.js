@@ -17,7 +17,7 @@ module.exports = {
 
     devServer:{
         contentBase:  path.resolve(__dirname, 'public'),
-    },
+    }, // yarn webpack serve 'agora converte o bundle e atualiza a porta 8080'
 
     plugins :[
         new HtmlWebpackPlugin({
