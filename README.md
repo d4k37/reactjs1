@@ -21,4 +21,5 @@ WEBPACK
 ![image](https://user-images.githubusercontent.com/59730229/117731494-9bc4bb80-b1c4-11eb-8413-c02e404dfbb1.png)
 ![image](https://user-images.githubusercontent.com/59730229/117731693-f3632700-b1c4-11eb-96d5-ebc90e79d989.png)
 ![image](https://user-images.githubusercontent.com/59730229/117732511-6620d200-b1c6-11eb-8d85-bd218e11e67f.png)
+A funcionalidade sourcemap faz o erro no browser aparecer exatamente como o código escrito
 ![image](https://user-images.githubusercontent.com/59730229/117807607-360f1880-b232-11eb-828f-ec37d127235a.png)
