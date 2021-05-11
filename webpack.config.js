@@ -20,6 +20,8 @@ module.exports = {
         contentBase:  path.resolve(__dirname, 'public'),
     }, // yarn webpack serve 'agora converte o bundle e atualiza a porta 8080'
 
+    
+
     plugins :[
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, 'public', 'index.html')
@@ -31,7 +33,12 @@ module.exports = {
                 test: /\.jsx$/,
                 exclude: /node_modules/,
                 use: 'babel-loader',
-            }
+            },
+            {
+                test: /\.css$/,
+                exclude: /node_modules/,
+                use: ['style-loader', 'css-loader'],
+            },
         ],
     }
 };
