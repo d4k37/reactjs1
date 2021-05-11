@@ -24,5 +24,5 @@ WEBPACK
 A funcionalidade sourcemap faz o erro no browser aparecer exatamente como o código escrito
 ![image](https://user-images.githubusercontent.com/59730229/117807607-360f1880-b232-11eb-828f-ec37d127235a.png)
 ambas a bibliotecas abaixo são usadas pra entender o arquivo css pelo webpack
-![image](https://user-images.githubusercontent.com/59730229/117857176-ded56c00-b262-11eb-99e6-bc9a88efaa75.png)--
+![image](https://user-images.githubusercontent.com/59730229/117857176-ded56c00-b262-11eb-99e6-bc9a88efaa75.png)--SSAS LOADER é um pré processador de css
 ![image](https://user-images.githubusercontent.com/59730229/117858113-e9443580-b263-11eb-8fe8-693750330793.png)
