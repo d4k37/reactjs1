@@ -1,4 +1,10 @@
-const repositoryName = 'CHAMEI A VARIAVEL';
+import {RepositoryItem} from "./RepositoryItem";
+
+const repository = {
+    name: 'unform',
+    description: 'forms in react',
+    link: 'http://github.com/unform/unform'
+}
 
 export function RepositoryList(){
     return(
@@ -6,55 +12,11 @@ export function RepositoryList(){
             <h1>Lista de repositorios  </h1>
 
                 <ul>
-                    <li>
-                        <strong>{repositoryName}</strong>
-                        <p>Forms in React</p>
-
-
-                        <a href="">
-                            Acessar repositório
-                        </a>
-                    </li>
-
-                    <li>
-                        <strong>unform</strong>
-                        <p>Forms in React</p>
-
-
-                        <a href="">
-                            Acessar repositório
-                        </a>
-                    </li>
-
-                    <li>
-                        <strong>unform</strong>
-                        <p>Forms in React</p>
-
-
-                        <a href="">
-                            Acessar repositório
-                        </a>
-                    </li>
-
-                    <li>
-                        <strong>unform</strong>
-                        <p>Forms in React</p>
-
-
-                        <a href="">
-                            Acessar repositório
-                        </a>
-                    </li>
-
-                    <li>
-                        <strong>unform</strong>
-                        <p>Forms in React</p>
-
-
-                        <a href="">
-                            Acessar repositório
-                        </a>
-                    </li>
+                    <RepositoryItem repository={repository}/>
+                    <RepositoryItem repository={repository}/>
+                    <RepositoryItem repository={repository}/>
+                    <RepositoryItem repository={repository}/>
+                    <RepositoryItem repository={repository}/>
                 </ul>
         </section>
     )
