@@ -1,3 +1,5 @@
+import '../styles/repositories.scss';
+
 export function RepositoryItem(props){
     return(
         <li>
