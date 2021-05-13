@@ -1,5 +1,5 @@
 import {RepositoryItem} from "./RepositoryItem";
-import '../styles/repositories.scss';
+
 import { useState, useEffect } from "react";
 
 // https://api.github.com/orgs/rocketseat/repos
